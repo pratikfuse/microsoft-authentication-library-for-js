@@ -2,6 +2,21 @@
   "name": "@azure/msal-angular",
   "entries": [
     {
+      "date": "Tue, 06 Dec 2022 20:58:03 GMT",
+      "tag": "@azure/msal-angular_v2.5.1",
+      "version": "2.5.1",
+      "comments": {
+        "patch": [
+          {
+            "author": "beachball",
+            "package": "@azure/msal-angular",
+            "comment": "Bump @azure/msal-browser to v2.32.1",
+            "commit": "dc9426a3a7c8ee7791a7f507f7bfab33cc7ef0d4"
+          }
+        ]
+      }
+    },
+    {
       "date": "Mon, 21 Nov 2022 19:14:45 GMT",
       "tag": "@azure/msal-angular_v2.5.0",
       "version": "2.5.0",

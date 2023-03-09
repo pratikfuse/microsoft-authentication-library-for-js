@@ -60,12 +60,7 @@ export class LoopbackClient {
                             );
                             return;
                         } else if (url === CommonConstants.FORWARD_SLASH) {
-                            res.end(
-                                false
-                                    ? successTemplate
-                                    : "asfea" ||
-                                          "Auth code was successfully acquired. You can close this window now."
-                            );
+                            res.end(successTemplate || "Auth code was successfully acquired. You can close this window now.");
                             return;
                         }
 
